@@ -6,7 +6,7 @@ package-mode = true
 
 [tool.poetry.dependencies]
 python = "~3.13"
-faststream = {version = "^0.1.0"}
+faststream = {version = "^0.6.0"}
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
