@@ -1,0 +1,18 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "prBodyNotes": [
+    "Some random text to take up space.",
+    "Some random text to take up space.",
+    "Some random text to take up space.",
+    "Some random text to take up space.",
+    "Some random text to take up space.",
+    "Some random text to take up space.",
+    "Some random text to take up space.",
+    "Some random text to take up space."
+  ],
+  "extends": [
+    "config:recommended",
+    "group:all"
+  ],
+  "prHourlyLimit": 42
+}
