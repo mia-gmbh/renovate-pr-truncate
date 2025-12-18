@@ -5,24 +5,24 @@ description = "Example of renovate truncating a PR text"
 package-mode = true
 
 [tool.poetry.dependencies]
-python = "~3.10"
-inboard = "^0.2.0"
-faststream = "^0.1.0"
-python-multipart = "^0.0.20"
+python = "~3.14.0"
+inboard = "^0.82.0"
+faststream = "^0.6.0"
+python-multipart = "^0.0.21"
 odfdo = "^3.9.3"
-python-json-logger = "^3.2.1"
-pytest-asyncio = "^0.26.0"
+python-json-logger = "^4.0.0"
+pytest-asyncio = "^1.0.0"
 aiohttp = "^3.10.10"
 aioresponses = "^0.7.4"
 
 [tool.poetry.group.dev.dependencies]
 mypy = "^1.12.0"
-ruff = "^0.12.0"
-pytest = "^8.3.3"
-pytest-cov = "^6.0.0"
+ruff = "^0.14.0"
+pytest = "^9.0.0"
+pytest-cov = "^7.0.0"
 typer = { version = "^0.15.4", extras = ["all"] }
 file-magic = "^0.4.1"
-pytest-subtests = "^0.14.1"
+pytest-subtests = "^0.15.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
