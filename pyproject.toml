@@ -5,7 +5,7 @@ description = "Example of renovate truncating a PR text"
 package-mode = true
 
 [tool.poetry.dependencies]
-python = "~3.13"
+python = "~3.14.0"
 faststream = {version = "^0.5.0"}
 
 [build-system]
