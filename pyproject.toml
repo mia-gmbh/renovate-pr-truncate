@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "renovate-pr-truncate"
+version = "0.0.0"
+description = "Example of renovate truncating a PR text"
+package-mode = true
+
+[tool.poetry.dependencies]
+python = "~3.13"
+faststream = {version = "^0.1.0"}
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
